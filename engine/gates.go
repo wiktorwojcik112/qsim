@@ -1,4 +1,4 @@
-package main
+package engine
 
 func applySingleQubitGate(q int, g [2][2]complex128, s *state) {
 	// First, we need to iterate over all pairs which are states which differ

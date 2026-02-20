@@ -1,4 +1,4 @@
-package main
+package engine
 
 import "math"
 import "math/cmplx"
