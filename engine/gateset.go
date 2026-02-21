@@ -68,8 +68,8 @@ func g_r_y(theta float64) [2][2]complex128 {
 }
 
 func g_r_z(theta float64) [2][2]complex128 {
-	var coef1 complex128 = cmplx.Exp(complex(theta/2, -1))
-	var coef2 complex128 = cmplx.Exp(complex(theta/2, 1))
+	var coef1 complex128 = cmplx.Exp(complex(0, -theta/2))
+	var coef2 complex128 = cmplx.Exp(complex(0, theta/2))
 
 	return [2][2]complex128{
 		{coef1, 0},
